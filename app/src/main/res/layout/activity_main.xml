@@ -13,12 +13,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:id="@+id/reg_id"
             android:hint="가입할 ID" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:id="@+id/reg_pw"
             android:inputType="textPassword"
             android:hint="가입할 PW" />
 
@@ -27,6 +29,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#AAAAAA"
             android:textSize="20sp"
+            android:id="@+id/reg_btn"
             android:text="가입하기"/>
 
         <View
@@ -40,12 +43,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:id="@+id/login_id"
             android:hint="로그인 할 ID" />
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:id="@+id/login_pw"
             android:inputType="textPassword"
             android:hint="로그인 할 PW" />
 
@@ -54,6 +59,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="#AAAAAA"
             android:textSize="20sp"
+            android:id="@+id/login_btn"
             android:text="로그인"/>
 
         <View
@@ -66,6 +72,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:textSize="25sp"
+            android:id="@+id/textview"
             android:text="결과"/>
     </LinearLayout>
 </layout>
